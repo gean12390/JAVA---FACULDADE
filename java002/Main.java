@@ -1,6 +1,12 @@
 
 public class Main{
 
+		//VARIAVEIS 
+		
+		public static int senha = 1234;
+		
+
+		//FUNÇÕES
 		public static void somar(){
 			
 			System.out.println(2 + 3);
@@ -14,6 +20,15 @@ public class Main{
 		public static int subtracao(int a , int b){
 			return a-b;
 		}
+
+		public static boolean validarSenha(int snh){
+			if(senha == snh)
+				return true;
+			 else
+				return false;
+			
+		}
+
 
 	public static void main(String[] args){
 
@@ -47,9 +62,8 @@ public class Main{
 			a++;
 			}
 
-		//ARRAYS
-		
 
+		//ARRAYS
 		int[] meuArray = new int[10];
 			
 		meuArray[0] = 999;
@@ -67,7 +81,7 @@ public class Main{
 		multiplicar();
 		System.out.println(multiplicar());
 		System.out.println(subtracao(4 , 3));
-
-
+		System.out.println(validarSenha(1234));
+		System.out.println(validarSenha(4232));
 	}
 }
