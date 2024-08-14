@@ -1,6 +1,11 @@
 
 public class Main{
 
+		public static void Somar(){
+			
+		System.out.println(2 + 3);
+		}
+
 	public static void main(String[] args){
 
 		
@@ -43,7 +48,14 @@ public class Main{
 
 		System.out.println(meuArray[0]);
 
+		//FUNÇÕES
+		
+		System.out.println("Funcoes");
 
+
+		//Funções sao blocos de instrusões que são executados quando chamadas atraves do Nome() da função
+
+		Somar();
 
 
 	}
