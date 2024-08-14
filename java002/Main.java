@@ -1,7 +1,7 @@
 
 public class Main{
 
-		public static void Somar(){	
+		public static void somar(){	
 		System.out.println(2 + 3);
 		}
 
@@ -54,7 +54,7 @@ public class Main{
 
 		//Funções sao blocos de instrusões que são executados quando chamadas atraves do Nome() da função
 
-		Somar();
+		somar();
 
 
 	}
