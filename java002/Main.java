@@ -70,6 +70,9 @@ public class Main{
 
 		System.out.println(meuArray[0]);
 
+		String[] carros = {"nissan" , "toyota"};
+		System.out.println(carros[0]);
+		System.out.println(carros[1]);
 		//FUNÇÕES
 		
 		System.out.println("Funcoes");
