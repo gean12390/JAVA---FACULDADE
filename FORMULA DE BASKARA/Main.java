@@ -42,11 +42,5 @@ public class Main{
 
 		System.out.printf("X1 = %fl / X2 = %fl" , x1 , x2);
 
-			if(delta < 0){
-				System.out.println("Não tem raiz real");
-			} else if(delta_calc <= 0){
-				System.out.println("Raiz inexistente");
-			} 
-
 	}
 }
