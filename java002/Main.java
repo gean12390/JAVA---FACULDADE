@@ -1,8 +1,7 @@
 
 public class Main{
 
-		public static void Somar(){
-			
+		public static void Somar(){	
 		System.out.println(2 + 3);
 		}
 
