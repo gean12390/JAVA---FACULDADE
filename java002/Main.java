@@ -1,13 +1,22 @@
 
 public class Main{
 
-		public static void somar(){	
-		System.out.println(2 + 3);
+		public static void somar(){
+			
+			System.out.println(2 + 3);
+		}
+
+		public static float multiplicar(){
+
+			return 2f * 4f;
+		}
+
+		public static int subtracao(int a , int b){
+			return a-b;
 		}
 
 	public static void main(String[] args){
 
-		
 		int a = 1;
 		float b = 2.0f;
 		double c = 3.0f;
@@ -19,7 +28,7 @@ public class Main{
 		//na programação orientada a objetos, um objeto é uma representaçãode uma entidade do mundo real
 
 
-		if(a ==1){
+		if(a == 1){
 			System.out.println("a e igual a 1");
 		} else{
 			System.out.println("a e diferente de 1");
@@ -55,6 +64,9 @@ public class Main{
 		//Funções sao blocos de instrusões que são executados quando chamadas atraves do Nome() da função
 
 		somar();
+		multiplicar();
+		System.out.println(multiplicar());
+		System.out.println(subtracao(4 , 3));
 
 
 	}
