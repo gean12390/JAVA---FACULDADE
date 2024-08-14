@@ -24,7 +24,7 @@ public class Main{
 		public static boolean validarSenha(int snh){
 			if(senha == snh)
 				return true;
-			 else
+			else
 				return false;
 			
 		}
