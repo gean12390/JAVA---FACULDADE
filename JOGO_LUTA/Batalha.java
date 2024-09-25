@@ -29,8 +29,7 @@ public class Batalha {
       System.out.println("Turno da CPU:");
       int ataqueCpu = random.nextInt(6);
       vidaP1 -= ataqueCpu;
-      System.out.println(
-          RED + "A CPU atacou o Jogador e causou " + ataqueCpu + " de dano. Vida do Jogador 1: " + vidaP1 + RESET);
+      System.out.println(RED + "A CPU atacou o Jogador e causou " + ataqueCpu + " de dano. Vida do Jogador 1: " + vidaP1 + RESET);
 
       if (vidaP1 <= 0) {
         System.out.println("O Jogador morreu. \n");
